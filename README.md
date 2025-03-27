@@ -1,43 +1,50 @@
-# eBay Clone / (ebay-clone)
+# Ebay-Klon
 
-### Learn how to build this!
+Ein vollständiger Marktplatz im Stil von eBay – mit Login, Produktanzeigen, Bieten & Kaufen.  
+Dieses Projekt demonstriert moderne Webentwicklung mit Stripe-Zahlung, Supabase-Backend & stylischem UI.
 
-If you'd like a step-by-step guide on how to build this just **CLICK THE IMAGE BELOW**
+---
 
-[![GO TO JOHN WEEKS DEV TUTORIAL VIDEOS](https://github.com/John-Weeks-Dev/ebay-clone/assets/108229029/1d1d9f20-0f5b-4d00-8d5a-9aca0d3e414c)](https://www.youtube.com/watch?v=LtPYuFhYf1w)
+## Features
 
-Come and check out my YOUTUBE channel for lots more tutorials -> https://www.youtube.com/@johnweeksdev
+- Nutzerregistrierung & Login
+- Artikel einstellen (mit Bildern, Beschreibung, Preis)
+- Bieten & Kaufen in Echtzeit
+- Stripe-Zahlungssystem (Testmodus)
+- Supabase als Datenbank & Auth-Provider
+- Responsive Design (mobil & Desktop)
+- Verkäufer- & Käufer-Dashboard
 
-**LIKE**, **SUBSCRIBE**, and **SMASH THE NOTIFICATION BELL**!!!
+---
 
-## App Setup (localhost)
+## Technologien
 
-```
-git clone https://github.com/John-Weeks-Dev/ebay-clone.git
+- **Frontend:** React, Next.js, TailwindCSS  
+- **Backend:** Supabase (PostgreSQL, Auth)  
+- **ORM:** Prisma  
+- **Zahlung:** Stripe API  
+- **Deployment:** Lokal oder z. B. Vercel
 
+---
+
+## Screenshots
+
+Hier kannst du Screenshots oder GIFs deiner App einfügen:
+
+![Screenshot](https://via.placeholder.com/900x500.png?text=Dein+Screenshot+hier)
+
+→ **Tipp:** Lade dein Bild im GitHub-Repo hoch oder verlinke es direkt aus der App.
+
+---
+
+## Setup (lokal starten)
+
+```bash
+git clone https://github.com/mikegehrke/Ebay-Klon.git
+cd Ebay-Klon
 cp .env.example .env
-```
 
-You'll have to set up a Supabase account & Stripe account, then add all of the details into your .env file.
 
-Once you've connected your application to Supabase. You'll also need to set up the Auth Providers:
-    Google [Google](https://cloud.google.com)
-    
-    https://supabase.com/docs/guides/auth/social-login/auth-google
-    
-Now run the command to migrate your database tables and run your seed file.
-    
-```
-npx prisma migrate dev --name init
-
-npx prisma generate
-
-npx prisma db seed
-
-npm i
-
-npm run dev
-```
 
 You should be good to go! If you need any more help, take a look at the tutorial video by clicking the image above.
 
