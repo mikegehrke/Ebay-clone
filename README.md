@@ -1,39 +1,39 @@
 # Ebay-Klon
 
-Ein vollständiger Marktplatz im Stil von eBay – mit Login, Produktanzeigen, Bieten & Kaufen.  
-Dieses Projekt demonstriert moderne Webentwicklung mit Stripe-Zahlung, Supabase-Backend & stylischem UI.
+Ein vollständiger Online-Marktplatz im Stil von eBay – mit Login, Produktanzeigen, Bieten und Kaufen.  
+Dieses Projekt zeigt modernes Web Development mit Stripe-Zahlung, Supabase-Backend und elegantem UI/UX.
 
 ---
 
 ## Features
 
-- Nutzerregistrierung & Login
-- Artikel einstellen (mit Bildern, Beschreibung, Preis)
-- Bieten & Kaufen in Echtzeit
-- Stripe-Zahlungssystem (Testmodus)
-- Supabase als Datenbank & Auth-Provider
-- Responsive Design (mobil & Desktop)
+- Benutzerregistrierung und Login
+- Artikel hochladen mit Bildern, Preis & Beschreibung
+- Live-Bieten & Sofortkauf
+- Zahlungsintegration mit Stripe (Testmodus)
+- Supabase für Datenbank & Auth
+- Responsive Design für Mobil & Desktop
 - Verkäufer- & Käufer-Dashboard
 
 ---
 
 ## Technologien
 
-- **Frontend:** React, Next.js, TailwindCSS  
+- **Frontend:** Next.js · React · TailwindCSS  
 - **Backend:** Supabase (PostgreSQL, Auth)  
 - **ORM:** Prisma  
-- **Zahlung:** Stripe API  
-- **Deployment:** Lokal oder z. B. Vercel
+- **Zahlungen:** Stripe  
+- **Deployment:** Lokal oder auf Vercel
 
 ---
 
-## Screenshots
+## Screenshot
 
-Hier kannst du Screenshots oder GIFs deiner App einfügen:
+![Ebay-Klon Vorschau](https://raw.githubusercontent.com/mikegehrke/Ebay-Klon/main/assets/preview.jpg)
 
-![Screenshot](https://via.placeholder.com/900x500.png?text=Dein+Screenshot+hier)
-
-→ **Tipp:** Lade dein Bild im GitHub-Repo hoch oder verlinke es direkt aus der App.
+> Falls der Screenshot nicht angezeigt wird:  
+> Stelle sicher, dass du ihn im Ordner `assets` in deinem GitHub-Repo hochlädst,  
+> und nenne ihn `preview.jpg` oder passe den Pfad im Link an.
 
 ---
 
@@ -43,7 +43,6 @@ Hier kannst du Screenshots oder GIFs deiner App einfügen:
 git clone https://github.com/mikegehrke/Ebay-Klon.git
 cd Ebay-Klon
 cp .env.example .env
-
 
 
 You should be good to go! If you need any more help, take a look at the tutorial video by clicking the image above.
